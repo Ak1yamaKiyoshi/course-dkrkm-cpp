@@ -1,0 +1,6 @@
+name=appples
+shops=123
+price=123
+producer=kherson
+variety=1
+gmo=1

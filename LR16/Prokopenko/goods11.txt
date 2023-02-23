@@ -1,0 +1,6 @@
+name=apples
+shops=321
+price=132
+producer=Kherson
+variety=1
+gmo=0

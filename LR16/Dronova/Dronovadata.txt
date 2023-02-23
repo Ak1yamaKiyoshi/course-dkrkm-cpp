@@ -1,0 +1,11 @@
+{Synelnikovskiy, Hto to tam1, 2, {29, 10, 2022}
+{Synelnikovskiy, Hto to tam2, 4, {11, 11, 2022}
+{Synelnikovskiy, Hto to tam3, 2, {1, 12, 2022}
+{Synelnikovskiy, Hto to tam4, 0, {3, 9, 2022}
+{Synelnikovskiy, Hto to tam5, 0, {5, 1, 2022}
+{Synelnikovskiy, Hto to tam6, 5, {24, 7, 2022}
+{Synelnikovskiy, Hto to tam7, 4, {27, 10, 2022}
+{Synelnikovskiy, Hto to tam8, 3, {30, 10, 2022}
+{Synelnikovskiy, Hto to tam9, 1, {2, 8, 2022}
+{area, name, 12, {29, 10, 2021}
+{Synelnikovskiy, HtoTOtam 133, 4, {29, 10, 2022}
