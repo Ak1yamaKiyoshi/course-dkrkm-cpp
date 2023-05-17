@@ -1,0 +1,389 @@
+<mxfile host="app.diagrams.net" modified="2023-05-14T11:53:52.488Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="SdRmxFsXvLgNKF--gCBv" version="21.3.0" type="device">
+  <diagram name="Сторінка-1" id="_eR_3v-Mw2Az2jnUmWdt">
+    <mxGraphModel dx="3135" dy="3163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QLhoriEredFABlClyV-9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-2" target="QLhoriEredFABlClyV-9-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-2" value="MatrixUtils::MatrixUtils(int size)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-795" y="-584" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-4" target="QLhoriEredFABlClyV-9-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-4" value="поки i &amp;lt; size" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="-454" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-5" target="QLhoriEredFABlClyV-9-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-5" value="присвоюємо значення розміру полю класу this-&amp;gt;size" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="-534" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-6" target="QLhoriEredFABlClyV-9-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-6" value="створюємо масив стовпчиків матриці&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="-494" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-7" target="QLhoriEredFABlClyV-9-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-705" y="-334" />
+              <mxPoint x="-815" y="-334" />
+              <mxPoint x="-815" y="-439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-7" value="створюємо масив рядків матриці у стовпчику i&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-805" y="-384" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-14" target="QLhoriEredFABlClyV-9-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-14" value="MatrixUtils::createMatrix()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-579.97" y="-1160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-16" target="QLhoriEredFABlClyV-9-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-16" value="поки i &amp;lt; size" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="-544.97" y="-1030" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-18" target="QLhoriEredFABlClyV-9-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-18" value="присвоюємо значення розміру полю класу this-&amp;gt;size" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-589.97" y="-1110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-20" target="QLhoriEredFABlClyV-9-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-20" value="створюємо масив стовпчиків матриці&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-589.97" y="-1070" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" parent="1" source="QLhoriEredFABlClyV-9-22" target="QLhoriEredFABlClyV-9-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-489.97" y="-910" />
+              <mxPoint x="-599.97" y="-910" />
+              <mxPoint x="-599.97" y="-1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-22" value="створюємо масив рядків матриці у стовпчику i&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-589.97" y="-960" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="QLhoriEredFABlClyV-9-24" target="QLhoriEredFABlClyV-9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-24" value="void MatrixUtils::printMatrix()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-799.97" y="-1160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="QLhoriEredFABlClyV-9-25" target="QLhoriEredFABlClyV-9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-25" value="int i = 0; i &amp;lt; this-&amp;gt;size; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="-765.97" y="-1110" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="QLhoriEredFABlClyV-9-26" target="MPSklwutve8_CNtaB2tT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=1;" edge="1" parent="1" source="QLhoriEredFABlClyV-9-26" target="MPSklwutve8_CNtaB2tT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-640.47" y="-1030" />
+              <mxPoint x="-640.47" y="-950" />
+              <mxPoint x="-713.47" y="-950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QLhoriEredFABlClyV-9-26" value="int j = 0; j &amp;lt; this-&amp;gt;size; j++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="-765.97" y="-1050" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-1" target="QLhoriEredFABlClyV-9-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-713.47" y="-960" />
+              <mxPoint x="-786.47" y="-960" />
+              <mxPoint x="-786.47" y="-1035" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-1" value="Виведення елементу матриці" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-776.97" y="-1000" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-6" target="QLhoriEredFABlClyV-9-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-793.47" y="-1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-710.47" y="-890" />
+              <mxPoint x="-793.47" y="-890" />
+              <mxPoint x="-793.47" y="-1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-6" value="Виведення нового рядку" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-769.97" y="-940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-11" target="MPSklwutve8_CNtaB2tT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-11" value="void MatrixUtils::printSmoothedMatrix()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-793.22" y="-875" width="166.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-13" target="MPSklwutve8_CNtaB2tT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-13" value="int i = 0; i &amp;lt; this-&amp;gt;size; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-762.47" y="-825" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-16" target="MPSklwutve8_CNtaB2tT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-16" target="MPSklwutve8_CNtaB2tT-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-636.97" y="-745" />
+              <mxPoint x="-636.97" y="-665" />
+              <mxPoint x="-709.97" y="-665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-16" value="int j = 0; j &amp;lt; this-&amp;gt;size; j++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-762.47" y="-765" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-18" target="MPSklwutve8_CNtaB2tT-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-709.97" y="-675" />
+              <mxPoint x="-782.97" y="-675" />
+              <mxPoint x="-782.97" y="-750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-18" value="Виведення елементу злагодженої матриці" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-773.47" y="-715" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-20" target="MPSklwutve8_CNtaB2tT-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-789.97" y="-765" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-706.97" y="-605" />
+              <mxPoint x="-789.97" y="-605" />
+              <mxPoint x="-789.97" y="-805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-20" value="Виведення нового рядку" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-766.47" y="-655" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-22" target="MPSklwutve8_CNtaB2tT-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-22" value="void MatrixUtils::fillMatrixWithRandom()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-603.22" y="-875" width="226.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-24" target="MPSklwutve8_CNtaB2tT-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-24" value="int i = 0; i &amp;lt; this-&amp;gt;size; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-542.47" y="-825" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-27" target="MPSklwutve8_CNtaB2tT-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-27" target="MPSklwutve8_CNtaB2tT-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-417.22" y="-745" />
+              <mxPoint x="-417.22" y="-665" />
+              <mxPoint x="-573.22" y="-665" />
+              <mxPoint x="-573.22" y="-805" />
+            </Array>
+            <mxPoint x="-489.96285714285716" y="-655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-27" value="int j = 0; j &amp;lt; this-&amp;gt;size; j++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-542.47" y="-765" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-29" target="MPSklwutve8_CNtaB2tT-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-489.97" y="-675" />
+              <mxPoint x="-562.97" y="-675" />
+              <mxPoint x="-562.97" y="-750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-29" value="Присвоєння комірці матриці випадкового значення між 0 та 76" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-553.47" y="-720" width="127" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-34" target="MPSklwutve8_CNtaB2tT-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-34" value="void MatrixUtils::fillMatrixWithRandom()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-352.47" y="-1134" width="226.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-36" target="MPSklwutve8_CNtaB2tT-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-36" target="MPSklwutve8_CNtaB2tT-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-12.469999999999999" y="-1029" />
+              <mxPoint x="-12.469999999999999" y="-444" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-36" value="int i = 0; i &amp;lt; this-&amp;gt;size; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-292.47" y="-1049" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-39" target="MPSklwutve8_CNtaB2tT-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-39" target="MPSklwutve8_CNtaB2tT-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-22.47" y="-924" />
+              <mxPoint x="-22.47" y="-464" />
+              <mxPoint x="-352.47" y="-464" />
+              <mxPoint x="-352.47" y="-1029" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-39" value="int j = 0; j &amp;lt; this-&amp;gt;size; j++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-291.72" y="-944" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-42" target="MPSklwutve8_CNtaB2tT-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-42" target="MPSklwutve8_CNtaB2tT-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-32.47" y="-814" />
+              <mxPoint x="-32.47" y="-554" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-42" value="int k = i-1; k &amp;lt;= i+1; k++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-292.47" y="-834" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-43" target="MPSklwutve8_CNtaB2tT-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-43" target="MPSklwutve8_CNtaB2tT-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-42.47" y="-754" />
+              <mxPoint x="-42.47" y="-564" />
+              <mxPoint x="-322.47" y="-564" />
+              <mxPoint x="-322.47" y="-814" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-43" value="int l = j-1; l &amp;lt;= j+1; l++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-291.72" y="-774" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-44" target="MPSklwutve8_CNtaB2tT-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-44" value="створення масиву стовпців злагодженої матриці" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-324.22" y="-1094" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-47" target="MPSklwutve8_CNtaB2tT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-47" value="створення масиву рядків злагодженої матриці у стовпцю [i]" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-340.09000000000003" y="-994" width="201.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-50" target="MPSklwutve8_CNtaB2tT-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-50" value="сумма сусідів = 0;&amp;nbsp;&lt;br&gt;кількість сусідів = 0;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-304.97" y="-884" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-53" target="MPSklwutve8_CNtaB2tT-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-53" value="Сусідній елемент (k, l) у межах матриці" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-312.03" y="-714" width="144.13" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-56" target="MPSklwutve8_CNtaB2tT-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-56" value="кількість сусідів ++&lt;br&gt;сума сусідів + this-&amp;gt;matrix[k][l]" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-232.47" y="-634" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-60" target="MPSklwutve8_CNtaB2tT-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-233.47" y="-474" />
+              <mxPoint x="-332.47" y="-474" />
+              <mxPoint x="-332.47" y="-924" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-60" value="smoothed_matrix[i][j] = сума сусідів / кількість сусідів" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-324.22" y="-534" width="182.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-64" value="Присвоєння вказівника на злагоджену матрицю полю класа&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-336.72" y="-424" width="182.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-67" target="MPSklwutve8_CNtaB2tT-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-67" value="MatrixUtils::~MatrixUtils()" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-568.47" y="-584" width="157" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-69" target="MPSklwutve8_CNtaB2tT-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-489.97" y="-474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.477;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-69" target="MPSklwutve8_CNtaB2tT-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-417.22" y="-524" />
+              <mxPoint x="-417.22" y="-414" />
+              <mxPoint x="-495.22" y="-414" />
+              <mxPoint x="-495.22" y="-403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-69" value="int i = 0; i &amp;lt; this-&amp;gt;size; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-542.22" y="-544" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="MPSklwutve8_CNtaB2tT-75" target="MPSklwutve8_CNtaB2tT-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-489.22" y="-424" />
+              <mxPoint x="-562.22" y="-424" />
+              <mxPoint x="-562.22" y="-524" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-75" value="Видалення масиву рядків матриці у стопчику [i] та злагодженої матриці" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-549.47" y="-494" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-77" value="Видалення масиву стовпчиків матриці та злагодженої матриці" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-556.47" y="-404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-1200" width="40" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-80" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-867" y="-1203" width="40" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-300" width="40" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="MPSklwutve8_CNtaB2tT-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-867" y="-300" width="40" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

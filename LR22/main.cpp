@@ -1,16 +1,19 @@
-/*
-16 
-Дана дійсна квадратна матриця.
-    Сусідами елемента Aij є елементи Akl, де i-1<=k<=i+1, j-1<=l<=j+1 (k,l)!=(i,j).
-    Операція згладжування дає матрицю такого ж розміру, де 
-    Кожний елемент – середнє арифметичне сусідів. 
-    Побудувати згладжену матрицю.
+#include "matrix.cpp"
+#include <iostream>
 
-    ij != kl
-    start, average, end 
-    [ s, a, e ]
-    [ 0, 1, 2 ],
-    [ 0, 1, 2 ],
-    [ 0, 1, 2 ]
 
-*/
+int main() {
+    int size = 10; // Задаємо початковий розмір матриці 
+    MatrixUtils matrixUtils(size); // Створюємо матрицю із заданим розміром 
+    matrixUtils.fillMatrixWithRandom(); // Заповнюємо випадковими числами від 0 до 75 
+
+    std::cout << "Original matrix:" << std::endl; 
+    matrixUtils.printMatrix(); // Виводимо цю матрицю 
+
+
+    matrixUtils.smoothMatrix(); // Злагоджуємо матрицю
+    std::cout << "Smoothed matrix:" << std::endl;
+    matrixUtils.printSmoothedMatrix(); // Виводимо злагоджену матрицю 
+
+    return 0;
+}
